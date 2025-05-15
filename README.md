@@ -1,8 +1,9 @@
 # lseglma
-Candidate: **Adrian Stoica**
+  - Candidate: **Adrian Stoica**
+  - Date: **15 May 2025**
 
 ## Coding Challenge
- Log Monitoring ApplicationThis task should take at most 90 minutes of your time, focus on problem solving and good
+Log Monitoring ApplicationThis task should take at most 90 minutes of your time, focus on problem solving and good
 coding practices. If you run out of time, then please document what else you would have liked
 to have achieved. You can complete this challenge in any common programming language.
 You are provided with a log file, logs.log. The goal of this challenge is to build a log monitoring
