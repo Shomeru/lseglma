@@ -1,0 +1,22 @@
+$ ./logsparser.sh
+ERROR: PID=39547 scheduled task 051, took longer than 10 minutes !
+ERROR: PID=45135 scheduled task 515, took longer than 10 minutes !
+WARNING: PID=71766 scheduled task 074, took between 5 and 10 minutes !
+ERROR: PID=81258 background job wmy, took longer than 10 minutes !
+WARNING: PID=87228 scheduled task 268, took between 5 and 10 minutes !
+WARNING: PID=50295 scheduled task 811, took between 5 and 10 minutes !
+WARNING: PID=27222 scheduled task 294, took between 5 and 10 minutes !
+WARNING: PID=87570 scheduled task 794, took between 5 and 10 minutes !
+WARNING: PID=99672 background job sqm, took between 5 and 10 minutes !
+WARNING: PID=86716 background job xfg, took between 5 and 10 minutes !
+ERROR: PID=22003 scheduled task 004, took longer than 10 minutes !
+ERROR: PID=85742 scheduled task 064, took longer than 10 minutes !
+WARNING: PID=98746 scheduled task 746, took between 5 and 10 minutes !
+ERROR: PID=39860 scheduled task 460, took longer than 10 minutes !
+ERROR: PID=52532 background job tqc, took longer than 10 minutes !
+ERROR: PID=62401 scheduled task 936, took longer than 10 minutes !
+ERROR: PID=23703 scheduled task 374, took longer than 10 minutes !
+ERROR: PID=70808 scheduled task 182, took longer than 10 minutes !
+WARNING: PID=24482 scheduled task 672, took between 5 and 10 minutes !
+INFO: PID=72029 scheduled task 333, missing START or END !
+INFO: PID=72897 scheduled task 016, missing START or END !

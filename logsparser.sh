@@ -66,7 +66,6 @@ done
 # Main program
 # Read the log file
 # fields are sepparated by coma
-# here string will remove leading spaces (read <<< "$log")
 while IFS=, read -r timestamp job_desc job_status job_pid; do
   seconds=$(timestamp_to_seconds $timestamp)
   
@@ -85,7 +84,7 @@ while IFS=, read -r timestamp job_desc job_status job_pid; do
 	  job_description["$job_pid"]="$job_desc"
 	fi
   fi
-done <<< $(cat logs.log)
+done < logs.log
 
 # Call function to check for orphan logs
 orphan_log
@@ -93,6 +92,6 @@ orphan_log
 # Uncomment to see more about orphaned logs
 # ${!array[@]} displays keys
 # ${array[@]} displays values
-echo "start_times=${!start_times[@]}"
-echo "stop_times=${!stop_times[@]}"
-echo "job_description=${job_description[@]}"
+#echo "start_times=${!start_times[@]}"
+#echo "stop_times=${!stop_times[@]}"
+#echo "job_description=${job_description[@]}"
